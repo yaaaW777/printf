@@ -25,7 +25,7 @@ break;
 }
 
 if (FLAGS_CH[j] == 0)
-k;
+break;
 }
 *i = curr_i - 1;
 
