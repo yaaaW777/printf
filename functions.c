@@ -113,7 +113,7 @@ int flags, int width, int precision, int size)
 int i = BUFF_SIZE - 2;
 int is_negative = 0;
 long int n = va_arg(types, long int);
-nsigned long int num;
+unsigned long int num;
 
 n = convert_size_number(n, size);
 
